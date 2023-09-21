@@ -28,3 +28,15 @@ function add() {
 printF();
 add()
 printF();
+function printF(i) {
+    console.log(++i)
+    console,log(i)
+
+}
+printF(i);
+function printF(i) {
+    console.log(i++)
+    console,log(i)
+
+}
+printF(i);
