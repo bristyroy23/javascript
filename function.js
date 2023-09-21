@@ -14,3 +14,17 @@ console.log("mern03")
 printF();
 console.log("mern03")
 printF();
+
+function printF() {
+    for (let i = 1; i <= 3; i++){
+    console.log(i)
+}
+}
+function add() {
+    console.log("-------function run-------")
+    printF();
+    console.log("-------function run-------")
+}
+printF();
+add()
+printF();
